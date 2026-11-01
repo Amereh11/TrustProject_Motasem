@@ -11,7 +11,7 @@
 
 **Offline practice:** Open `preview.html` after downloading the project; nothing is saved.
 
-**Recorded study (Mac or Linux/Windows WSL):** Open a terminal in this folder, run `python3 runner.py start`, then visit http://127.0.0.1:22362/study. Use the researcher page to alternate conditions. For stop, export, and reset commands, see `TERMINAL_COMMANDS.txt`.
+**Recorded study (Mac or Linux/Windows WSL):** Open a terminal in this folder, run `python3 runner.py start`, then visit http://127.0.0.1:22362/study. Use the researcher page to alternate conditions.
 
 **Data:** The recorded server saves to a local SQLite database. `python3 runner.py export` produces raw CSVs and cleaned JASP tables. Never put participant records, database files, or private config on GitHub. GitHub Pages can show only a non-recording preview, not the psiTurk database study.
 
