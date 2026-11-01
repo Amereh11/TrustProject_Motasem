@@ -7,7 +7,9 @@
 - **Phase 1 (Q1–5):** no errors. **Phase 2 (Q6–10):** error at Q8. **Phase 3 (Q11–15):** error at Q13.
 - Both versions use the same questions, instructions, video, and math explanations. Only the response to Pepper's mistakes differs.
 
-**Practice:** Open `preview.html` and choose a condition; nothing is saved.
+**Online practice preview:** [Open the Pepper Math Tutor Study](https://amereh11.github.io/TrustProject_Motasem/) in a browser. Choose either condition to try the full study. This is a demonstration; responses are **not saved**.
+
+**Offline practice:** Open `preview.html` after downloading the project; nothing is saved.
 
 **Recorded study (Mac or Linux/Windows WSL):** Open a terminal in this folder, run `python3 runner.py start`, then visit http://127.0.0.1:22362/study. Use the researcher page to alternate conditions. For stop, export, and reset commands, see `TERMINAL_COMMANDS.txt`.
 
