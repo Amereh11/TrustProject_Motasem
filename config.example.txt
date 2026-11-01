@@ -1,0 +1,17 @@
+# runner.py generates config.txt with a new secret key the first time you start.
+[Database Parameters]
+database_url = sqlite:///participants.db
+table_name = pepper_robot_trust
+
+[Server Parameters]
+host = 127.0.0.1
+port = 22362
+secret_key = REPLACE_WITH_RANDOM_LOCAL_KEY
+
+[Task Parameters]
+experiment_code_version = 4.0.0
+num_conds = 1
+num_counters = 1
+
+[Shell Parameters]
+launch_in_mode = sandbox

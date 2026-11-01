@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pepper Math Tutor Study</title><link rel="stylesheet" href="static/css/trust_study.css">
+<script src="static/lib/jquery-min.js"></script>
+<script src="static/lib/underscore-min.js"></script>
+<script src="static/lib/backbone-min.js"></script>
+<script>
+var uniqueId={{ uniqueId | tojson }};
+var condition={{ condition | tojson }};
+var counterbalance={{ counterbalance | tojson }};
+var adServerLoc={{ adServerLoc | tojson }};
+var mode={{ mode | default('sandbox') | tojson }};
+</script>
+<script src="static/js/psiturk.js"></script>
+<!-- Local study links generate a new session with the chosen condition encoded in uniqueId. -->
+<script defer src="static/js/trust_experiment.js"></script></head>
+<body><noscript>This experiment requires JavaScript.</noscript><div id="app"></div></body></html>

@@ -1,0 +1,32 @@
+TRUSTPROJECT_MOTASEM — PEPPER MATH TUTOR
+
+FILES
+preview.html         Practice only: choose either version. Saves nothing.
+runner.py            Start/stop the recorded server; export or clear its data.
+custom.py            Researcher links for condition 0 and condition 1.
+config.example.txt   Local server settings; runner.py creates config.txt.
+templates/           Live psiTurk pages.
+static/              Experiment code, visual examples and Pepper video.
+analysis/            Makes clean CSV tables for JASP.
+README.md            Simple study overview.
+
+RUN IT (MAC)
+1. Unzip the project and open Terminal inside its folder.
+2. Run:  python3 runner.py start
+3. Open: http://127.0.0.1:22362/study
+4. Pick condition 0 or 1 for each participant. The answers are saved locally.
+5. Stop the server after everyone has finished.
+
+WINDOWS
+You can double-click preview.html in Windows for practice.
+For RECORDING, psiTurk does not run natively on Windows: use Ubuntu in
+Windows Subsystem for Linux (WSL), then open its terminal in this folder.
+In WSL use exactly the same python3 commands as on Mac.
+
+FIRST RUN
+The command installs psiTurk 3.3.1 into .venv if needed. Python 3.9
+(or the 'uv' Python manager) and internet access are needed for setup.
+
+IMPORTANT
+Local links work only on the hosting computer. Preview runs do NOT
+save data.
