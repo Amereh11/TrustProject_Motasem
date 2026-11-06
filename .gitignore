@@ -1,0 +1,16 @@
+# Participant records, generated exports, and local settings — do not publish.
+participants.db*
+questiondata.csv
+trialdata.csv
+eventdata.csv
+jasp_ready.csv
+trials_ready.csv
+study_audit.csv
+config.txt
+.venv/
+__pycache__/
+*.pyc
+*.log
+.psiturk_history
+.DS_Store
+__MACOSX/
